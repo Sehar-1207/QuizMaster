@@ -1,5 +1,6 @@
 import { useState } from 'react'
 // import StaticQuizCard from './components/StaticQuizCard';
+import QuizCard from './components/QuizCard';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="flex-1 flex items-center justify-center bg-gradient-to-br from-indigo-50 to-purple-50">
 
         {/* <StaticQuizCard /> // Quiz card with Static Data */}
+        <QuizCard/>
 
       </div>
     </div>
