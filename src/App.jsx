@@ -1,0 +1,17 @@
+import { useState } from 'react'
+import QuizCard from './components/QuizCard'
+
+function App() {
+  return (
+    <div className="h-screen flex flex-col overflow-hidden">
+      <nav className="bg-white border-b border-gray-100 px-6 py-4 shadow-sm">
+        <h1 className="text-2xl font-bold text-indigo-600 tracking-tight">Quiz Master</h1>
+      </nav>
+      <div className="flex-1 flex items-center justify-center bg-gradient-to-br from-indigo-50 to-purple-50">
+        <QuizCard />
+      </div>
+    </div>
+  )
+}
+
+export default App
